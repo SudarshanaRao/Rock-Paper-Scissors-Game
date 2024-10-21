@@ -1,4 +1,4 @@
-In this project, let's build a **Rock Paper Scissors** by applying the concepts we have learned till now.
+For this project, let's build a "Rock Paper Scissors" by applying the concepts I have learned so far.
 
 ### Refer to the image below:
 
@@ -29,30 +29,8 @@ In this project, let's build a **Rock Paper Scissors** by applying the concepts 
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- When you click on the **Rules** button, it should trigger a popup, and rules image should be displayed
-- Initially, the score displayed should be `0`
-- The App is provided with `choicesList`. It consists of a list of choice objects with the following properties in each choice object
-
-  |   Key    | Data Type |
-  | :------: | :-------: |
-  |    id    |  String   |
-  | imageUrl |  String   |
-
-- When any of the three buttons (i.e Rock, Paper, Scissors) is clicked, then the [Game Results View](https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-game-results-output.png) should be displayed
-- In the Game Results View, the opponent choice should be generated randomly among these three buttons (i.e Rock, Paper, Scissors)
-- When the **Rock** button is clicked, then the rock image should be displayed as your choice in the Game Results View
-- When the **Paper** button is clicked, then the paper image should be displayed as your choice in the Game Results View
-- When the **Scissors** button is clicked, then the scissors image should be displayed as your choice in the Game Results View
-
-  #### Game Rules
+#### Game Rules
 
     <details>
     <summary>Click to view the Game Rules</summary>
@@ -99,26 +77,6 @@ The app must have the following functionalities
 
 </details>
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-- You can use **reactjs-popup** for displaying the modal
-- `RiCloseLine` icon from `react icons` can be used for the **close** button at `React Popup`
-
-**The following instructions are required for the tests to pass**
-
-- **Styled Components** should be used for styling purposes
-- The Page should consist of three HTML button elements with `data-testid` attribute values as **rockButton**, **scissorsButton** and **paperButton** respectively
-- In Game Results View, the page should consist of an HTML image element with alt as **your choice** and src as URL for your choice image
-- In Game Results View, the page should consist of an HTML image element with alt as **opponent choice** and src as URL for opponent choice image
-- **Roboto** should be applied as `font-family` for **Score** value
-
-</details>
-
 ### Resources
 
 <details>
@@ -146,9 +104,3 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
